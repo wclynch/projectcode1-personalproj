@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+    height: 50px;
+    background color: #eeeeee;
+    color: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+.section-height {
+    height: 300px;
+    margin: 5px 0;
+}
+
+.section-1 {
+    background-color: #5D8AA8;
+    background-image: url("../images/skateboard.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding-top: 115px;
+    height: 100vh;
+    /* max-width: 600px; */
+    /* margin: 0 auto;   */
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+*/.section-2 {
+    background-color: palevioletred;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/*
+.section-3 {
+    display: flex;
+    background-color: rgb(70, 108, 149);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sec3-left {
+    background-color: rgba(255, 228, 196, 0.3);
+    height: inherit;
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sec3-right {
+    background-color:darkcyan;
+    height: inherit;
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section-4 {
+    display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sec4-left {
+    background-color:lavender;
+    height: inherit;
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sec4-right {
+    background-color: chocolate;
+    height: inherit;
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;*/
+}
+
+footer {
+    height: 100px;
+    background-color: skyblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
