@@ -1,99 +1,95 @@
-/* RESET */
+/* CSS RESET */
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
     box-sizing: border-box;
     text-align: center;
 }
 
-nav {
-    height: 50px;
-    background color: #eeeeee;
-    color: #eeeeee;
-    font-family: 'Raleway', sans-serif;
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
-
+img {
+  margin: : 0;
+}
 
 li {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
 }
 
-h1, h2 {
-    font-family: 'Raleway', sans-serif;
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 300%;
 }
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+}
+
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 10px;
 }
+
+/*Flexbox for side by side images on homepage*/
+.row {
+  display: flex;
+  justify-content : center;
+}
+
+.column {
+  
+  padding: 5px;
+}
+
 .section-height {
     height: 300px;
     margin: 5px 0;
 }
 
 .section-1 {
-    background-color: #5D8AA8;
-    background-image: url("../images/skateboard.jpeg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    padding-top: 115px;
+    background-color: #FFFFFF;
+    background-size: 100%;
     height: 100vh;
     /* max-width: 600px; */
     /* margin: 0 auto;   */
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-*/.section-2 {
-    background-color: palevioletred;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-/*
-.section-3 {
-    display: flex;
-    background-color: rgb(70, 108, 149);
-    font-family: 'Open Sans Condensed', sans-serif;
-}
+.social-icons {
+  padding: 10px;
+  text-align: center;
+  }  
+  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
 
-.sec3-left {
-    background-color: rgba(255, 228, 196, 0.3);
-    height: inherit;
-    width: 50%;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.sec3-right {
-    background-color:darkcyan;
-    height: inherit;
-    width: 50%;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.section-4 {
-    display: flex;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.sec4-left {
-    background-color:lavender;
-    height: inherit;
-    width: 50%;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.sec4-right {
-    background-color: chocolate;
-    height: inherit;
-    width: 50%;
-    font-family: 'Open Sans Condensed', sans-serif;*/
+.social-icons li a {
+  border-bottom: none;
+  }
+  
+.social-icons li img {
+  margin-right: 20px;
+  padding: 10;
 }
 
 footer {
-    height: 100px;
-    background-color: skyblue;
+    background-color: #000000;
+    height: 150px;
     font-family: 'Open Sans Condensed', sans-serif;
 }

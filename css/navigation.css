@@ -1,0 +1,61 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+        background: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        position: -webkit-sticky;
+        position: sticky center;
+        top: 0;
+}
+
+nav ul { 
+    list-style-type: none;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav a:link  {
+    display: compact;
+    color: #000000;
+    text-decoration: inherit;
+    padding: 15px 17px;
+}
+
+nav a:visited {
+    color: #D3D;
+    text-decoration: line-through;
+}
+
+nav a:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+body {
+    /*doe not ework with Sticky positioning*/
+    padding-top: 60
+}
+
+main {
+    width: 75vw;
+    margin: 0 auto;
+    /*position: relative;*/#top
+}
+
+main p {
+    position: absolute;
+    top: 30px;
+}
